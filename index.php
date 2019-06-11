@@ -19,6 +19,22 @@
     </head>
 
     <body>
+        <?php
+            // defines an number array
+            $numbers = array(7, 9, 8, 9, 8, 8, 6);
+
+            // defines function
+            function printArr($numbers)
+            {
+                foreach($numbers as $number)
+                {
+                    echo "$number<br>";
+                }
+            }
+
+            // calls the function
+            printArr($numbers);
+        ?>
 
     </body>
 </html>
