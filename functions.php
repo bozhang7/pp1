@@ -13,3 +13,9 @@
     {
         return max($numbers);
     }
+
+    // defines function
+    function removeDups($numbers)
+    {
+        return array_unique($numbers);
+    }
