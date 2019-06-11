@@ -31,6 +31,10 @@
             echo 'Largest: ' . largest($numbers) . "<br>";
 
             print_r(removeDups($numbers));
+
+            echo '<br>';
+
+            print_r(distribution($numbers));
         ?>
 
     </body>
