@@ -27,6 +27,8 @@
 
             // calls the function
             printArr($numbers);
+
+            echo 'Largest: ' . largest($numbers);
         ?>
 
     </body>
