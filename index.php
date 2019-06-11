@@ -28,7 +28,9 @@
             // calls the function
             printArr($numbers);
 
-            echo 'Largest: ' . largest($numbers);
+            echo 'Largest: ' . largest($numbers) . "<br>";
+
+            print_r(removeDups($numbers));
         ?>
 
     </body>
