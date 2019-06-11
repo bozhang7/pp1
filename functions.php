@@ -7,3 +7,9 @@
             echo "$number<br>";
         }
     }
+
+    // defines function
+    function largest($numbers)
+    {
+        return max($numbers);
+    }
