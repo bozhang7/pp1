@@ -23,14 +23,7 @@
             // defines an number array
             $numbers = array(7, 9, 8, 9, 8, 8, 6);
 
-            // defines function
-            function printArr($numbers)
-            {
-                foreach($numbers as $number)
-                {
-                    echo "$number<br>";
-                }
-            }
+            include("functions.php");
 
             // calls the function
             printArr($numbers);
